@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: tetris-service
+  name: app-service
 spec:
   selector:
-    app: tetris
+    app: java
   ports:
     - protocol: TCP
       port: 80
